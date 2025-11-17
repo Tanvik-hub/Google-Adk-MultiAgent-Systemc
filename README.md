@@ -1,15 +1,16 @@
-# Google-Adk-MultiAgent-System
+# 🤖Google-Adk-MultiAgent-System
 
 **A professional multi-agent AI system built with Google ADK, featuring LoopAgent for iterative research → draft → critique workflows, automated refinement, and content generation.**
 
 **Built during the Google Cloud Technical Series: Multi-Agent AI Workshop**
+<img width="1832" height="939" alt="image" src="https://github.com/user-attachments/assets/fc08b7e8-5675-4b1f-a2f8-d7814d9445d9" />
+
 ---
 
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Project Structure](#project-structure)
----
+--[Event](#Event)
 
 ## Overview
 
@@ -39,21 +40,14 @@ This workflow models real-world content generation pipelines, autonomous agent o
 - **Portfolio Ready:** Demonstrates agentic AI workflow, suitable for recruiter showcase.
 
 ---
+## Event
 
-## Project Structure
+By building this system during the **Google Cloud Technical Series**, I gained hands-on experience in:
 
-```text
-~/Google-Adk-MultiAgent/
-├─ workflow_agents/
-│  ├─ agent.py           # Main file defining all agents and tools
-│  ├─ __init__.py
-├─ movie_pitches/        # Generated drafts are saved here
-├─ README.md
-├─ requirements.txt      # Python dependencies (e.g., google-adk, requests, dotenv)
+- Designing **multi-agent pipelines** for content generation  
+- Implementing **LoopAgent and SequentialAgent** workflows  
+- Managing agent **state, persistence, and feedback loops**  
+- Integrating deterministic tools (APIs, file writing) with creative LLM outputs
 
-## MODEL=gemini-2.5-flash
-
-
-<img width="1832" height="939" alt="image" src="https://github.com/user-attachments/assets/df1247c2-61e2-4d8e-bff3-e7572a4adb33" />
-
+  
 
